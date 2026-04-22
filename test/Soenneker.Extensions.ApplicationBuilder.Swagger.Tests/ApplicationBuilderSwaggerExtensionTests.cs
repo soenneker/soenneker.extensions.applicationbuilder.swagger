@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.Extensions.ApplicationBuilder.Swagger.Tests;
 
 public sealed class ApplicationBuilderSwaggerExtensionTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
