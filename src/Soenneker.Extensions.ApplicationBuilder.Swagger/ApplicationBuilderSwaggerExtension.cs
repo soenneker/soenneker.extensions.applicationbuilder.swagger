@@ -22,7 +22,7 @@ public static class ApplicationBuilderSwaggerExtension
 
         app.UseSwaggerUI(c =>
         {
-            c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+            c.SwaggerEndpoint("./v1/swagger.json", "v1");
             c.RoutePrefix = "swagger";
             c.DisplayRequestDuration();
             c.EnableDeepLinking();
